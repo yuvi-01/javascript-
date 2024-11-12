@@ -17,9 +17,10 @@ let value;      //5.undefined =>
                 //7.object
 
 
-console.log(typeof age);
-console.log(typeof "UV");
-console.log(typeof null);
+console.log(typeof age);   // int 
+console.log(typeof "UV");  // string
+console.log(typeof null); //it shows it type as  < object >
+console.log(typeof undefined); // undefined
 
  
 
