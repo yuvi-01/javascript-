@@ -5,3 +5,24 @@
 console.log(3 + 3); console.log("uV") // code must be readible 
 
 
+//types of variables
+
+let name = "UV"  //1.string => ""
+let age = 18     //2.number //bigint 
+let isLoggedIn = false   //3.boolean => true /false
+                        
+let state = null    //4.null =>(standalone value)=>representation of empty value
+let value;      //5.undefined =>
+                //6.symbol=>unique
+                //7.object
+
+
+console.log(typeof age);
+console.log(typeof "UV");
+console.log(typeof null);
+
+ 
+
+
+
+
