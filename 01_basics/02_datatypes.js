@@ -16,10 +16,10 @@ let value;      //5.undefined =>
                 //6.symbol=>unique
                 //7.object
 
-
-console.log(typeof age);   // int 
-console.log(typeof "UV");  // string
-console.log(typeof null); //it shows it type as  < object >
+                           //OUTPUT\\
+console.log(typeof age);    // int 
+console.log(typeof "UV");   // string
+console.log(typeof null);   //it shows it type as  < object >
 console.log(typeof undefined); // undefined
 
  
