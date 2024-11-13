@@ -32,18 +32,18 @@ let myObj = {
 
 
 const myFunction = function (){
-    console.log("HEY THERE");       //function
+    // console.log("HEY THERE");       //function
     
 }
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp);
-console.log(typeof scoreValue);
-console.log(typeof myFunction);
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp);
+// console.log(typeof scoreValue);
+// console.log(typeof myFunction);
 
-console.log(typeof heros); //array in js are object
+// console.log(typeof heros); //array in js are object
 
-console.log(typeof myObj);
-console.log(typeof anotherId);
+// console.log(typeof myObj);
+// console.log(typeof anotherId);
 
 
 
@@ -70,4 +70,45 @@ console.log(typeof anotherId);
 // typeof heros returns "object": Arrays in JavaScript are objects.
 // typeof myObj returns "object".
 // typeof anotherId returns "symbol".
+
+
+//************************************************************ */
+
+//  STACK=> (Primitive-)[copy of original value is given ] ,
+//  HEAP =>(non-Primitive)[original value refrence is given ]
+
+// STACK
+let myYtname = "XTNUVLIVE"
+
+let anotherName = myYtname
+anotherName = "NEwName"
+
+// console.log(anotherName);
+// console.log(myYtname);
+
+
+// HEAP
+let userOne = {
+    email: "xyz@gmail.com",
+    upi: "xyz@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "abc@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+// //Primitive
+// Primitive types (like String, Number, etc.) are stored directly in the stack.
+// When you copy a primitive value, a new independent copy is created.
+// Changes to one variable (like anotherName) do not affect the other (myYtname), as they are independent copies in memory.
+
+// // Non-Primitive
+// Objects are reference types in JavaScript.
+// When you assign userOne to userTwo, both variables reference the same object in the heap.
+// Modifying the object via either userOne or userTwo affects the same object, so both reflect the changes.
+
 
