@@ -23,6 +23,10 @@ console.log(gameName.toUpperCase()); // does not change the original value of st
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('r'));
 
+const newString =gameName.substring(0,4)
+console.log(newString);
+
+
 
 
 
