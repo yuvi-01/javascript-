@@ -30,6 +30,11 @@ console.log(newString);
 const anotherString = gameName.slice(-8,4)
 console.log(anotherString);
 
+//trim and replace
+
+const newStringOne ="   yuvraj   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
 
 
 
