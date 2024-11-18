@@ -38,6 +38,24 @@ console.log(newStringOne.trim());
 
 
 
+//replace
+
+const url ="https://yuvraj.com/yuvraj%20singh"
+
+console.log(url.replace('%20','-'))
+
+console.log(url.includes('yuvraj')) // tto check out the given keyword is present
+console.log(url.includes('bisht')) 
+
+
+console.log(gameName.split('-'));
+
+
+
+
+
+
+
 
 
 
